@@ -61,7 +61,7 @@ module.exports = (env, argv) =>
           test: /\.(js|jsx)$/,
           loader: require.resolve('babel-loader'),
           include: path.join(__dirname, '../src'),
-        },
+        }
       ],
     },
   });

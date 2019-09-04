@@ -1,5 +1,5 @@
 import * as React from 'react';
-
+import './index.css'
 interface HelloProps{
   name:string,
   age:number
@@ -7,8 +7,8 @@ interface HelloProps{
 export class App extends React.Component{
  render(){
      return (
-      <div>
-             <Hello2 name={'高飞34223'} age={29614334434}/>
+      <div className='app'>
+             <Hello2 name={'高飞34223'} age={246789}/>
       </div>
      );
  };
